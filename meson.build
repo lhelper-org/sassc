@@ -2,7 +2,7 @@ project('sassc', 'c',
         version: '3.5.0.99',
         meson_version : '>= 0.48.0',
         default_options: [
-            'c_std=c11',
+            'c_std=c99',
             'buildtype=debugoptimized',
         ])
 
